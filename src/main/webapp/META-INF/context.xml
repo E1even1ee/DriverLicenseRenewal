@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>  
+  <Resource name="jdbc/MySQLiteDB" 
+            auth="Container" 
+            type="javax.sql.DataSource" username="li" password="123"
+            driverClassName="org.sqlite.JDBC"
+            url="jdbc:sqlite:/Users/Li/MySQLiteDB"
+            factory="org.apache.commons.dbcp.BasicDataSourceFactory">
+  </Resource>
+</Context>
